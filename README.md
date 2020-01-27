@@ -13,48 +13,29 @@ Each occasion starts with an hour of introduction into the current topic with ex
 
   
 #### Course info
-Neptun code: 	**dsexplorf17vm**
-
-Instructor: 	**Dávid Visontai**
-
-Semester: 	2
-
-Type: 	Lecture + Practice
-
-Credit points: 	4
-
-Prerequisites: 	programming in either **python**, **R** or **matlab**
-
+Neptun code: 	**dsexplorf17vm** <br>
+Instructor: 	**Dávid Visontai**<br>
+Semester: 	2 <br>
+Type: 	Lecture + Practice <br>
+Credit points: 	4 <br>
+Prerequisites: 	programming in either **python**, **R** or **matlab** <br>
 
 The course is held in the **North Building** in computer lab **5.56** on **wednesdays**  **14:00 - 17:00**.
 
 
-
 ### The schedule of the course 
-1,  12.02.2020. **[Visualization](Interactive_Visualization)** 
-
-2,  19.02.2020. **[SQL queries on an NBA database](Basketball_League-SQL) I** 
-
-3,  26.02.2020. **[SQL queries on an NBA database](Basketball_League-SQL) II** 
-
-4,  04.03.2020. **[USGS water discharge statistics](USGS-waterdata-curl-pandas)** 
-
-5,  11.03.2020. **[REST services](REST-services)** 
-
-6,  18.03.2020. **[Following John Snow (shapely)](John_Snow-map)** 
-
-7,  25.03.2020. **[Following John Snow (geopandas, folium)](John_Snow)** 
-
-8,  01.04.2020. **[Network exploration](Networkx)** - This lecture will be given by [**Dániel Ábel**](http://maven7.com/hu/daniel-abel/), who is a developer at Maven7.
-
-9, 15.04.2020. **[Data extraction from images](ImageExploration)**
-
-10, 22.04.2020. **[Natural Language Processing on tweets](NLP_on_tweets)** - This lecture will be given by **Eszter Bokányi**, whose field of interest is how social phenomena can be captured by using various digital fingerprints of individuals.
-
-11, 29.04.2020. **[3D Visualization](3d_Visualization)**
-
-12, 05.05.2020. **Consultation**
-
+1,  12.02.2020. **[Visualization](Interactive_Visualization)** <br>
+2,  19.02.2020. **[SQL queries on an NBA database](Basketball_League-SQL) I** <br>
+3,  26.02.2020. **[SQL queries on an NBA database](Basketball_League-SQL) II** <br>
+4,  04.03.2020. **[USGS water discharge statistics](USGS-waterdata-curl-pandas)** <br>
+5,  11.03.2020. **[REST services](REST-services)** <br>
+6,  18.03.2020. **[Following John Snow (shapely)](John_Snow-map)** <br>
+7,  25.03.2020. **[Following John Snow (geopandas, folium)](John_Snow)** <br>
+8,  01.04.2020. **[Network exploration](Networkx)** - This lecture will be given by [**Dániel Ábel**](http://maven7.com/hu/daniel-abel/), who is a developer at Maven7. <br>
+9, 15.04.2020. **[Data extraction from images](ImageExploration)** <br>
+10, 22.04.2020. **[Natural Language Processing on tweets](NLP_on_tweets)** - This lecture will be given by **Eszter Bokányi**, whose field of interest is how social phenomena can be captured by using various digital fingerprints of individuals. <br>
+11, 29.04.2020. **[3D Visualization](3d_Visualization)** <br>
+12, 05.05.2020. **Consultation** <br>
 13, 12.05.2020. **Consultation**
 
 ### Covered topics
