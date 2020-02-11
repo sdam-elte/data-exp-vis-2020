@@ -20,21 +20,21 @@ Type: 	Lecture + Practice <br>
 Credit points: 	4 <br>
 Prerequisites: 	programming in either **python**, **R** or **matlab** <br>
 
-The course is held in the **North Building** in computer lab **5.56** on **Wednesdays**  **14:00 - 17:00**.
+The course is held in the **North Building** in computer lab **5.56** on **Wednesdays**  **14:15 - 16:45**.
 
 
 ### The schedule of the course 
-1,  12.02.2020. **[Introduction to Kooplex Edu](https://kooplex-edu.elte.hu/hub)**, **[Jupyter Notebooks](https://jupyter.org/)** and **[Visualization](Interactive_Visualization)** <br>
-2,  19.02.2020. **[SQL queries on an NBA database](Basketball_League-SQL) I** <br>
-3,  26.02.2020. **[SQL queries on an NBA database](Basketball_League-SQL) II** <br>
-4,  04.03.2020. **[USGS water discharge statistics](USGS-waterdata-curl-pandas)** <br>
-5,  11.03.2020. **[REST services](REST-services)** <br>
-6,  18.03.2020. **[Following John Snow (shapely)](John_Snow-map)** <br>
-7,  25.03.2020. **[Following John Snow (geopandas, folium)](John_Snow)** <br>
-8,  01.04.2020. **[Network exploration](Networkx)** - This lecture will be given by [**Dániel Ábel**](http://maven7.com/hu/daniel-abel/), who is a developer at Maven7. <br>
-9, 15.04.2020. **[Data extraction from images](ImageExploration)** <br>
-10, 22.04.2020. **[Natural Language Processing on tweets](NLP_on_tweets)** - This lecture will be given by **Eszter Bokányi**, whose field of interest is how social phenomena can be captured by using various digital fingerprints of individuals. <br>
-11, 29.04.2020. **[3D Visualization](3d_Visualization)** <br>
+1,  12.02.2020. **[Introduction to Kooplex Edu](https://kooplex-edu.elte.hu/hub)**, **[Jupyter Notebooks](https://jupyter.org/)** and  **[USGS water discharge statistics](Assignments/USGS-water)**<br>
+2,  19.02.2020. **[Interactive Visualization](Interactive_Visualization)** <br>
+3,  26.02.2020. **[SQL queries on an NBA database](Assignments/Basketball_League)** <br>
+4,  04.03.2020. **[Hierarchical dataformats and standards](Assignments/Hierarchical_dataformats)** <br>
+5,  11.03.2020. **[REST services](REST-services) and [nCoV-2019](Assignments/nCoV-2019)** <br>
+6,  18.03.2020. **[Maps, shapes, coordinates](Assignments/Maps_shapes) and [Following John Snow](Assignments/John_Snow_pumps_and_deaths)** <br>
+7,  25.03.2020. **** <br>
+8,  01.04.2020. **[Network exploration](Assignments/Networks)** - This lecture will be given by [**Dániel Ábel**](http://maven7.com/hu/daniel-abel/), who is a developer at Maven7. <br>
+9, 15.04.2020. **[Data extraction from images](Assignments/Image_exploration)** <br>
+10, 22.04.2020. **[Natural Language Processing on tweets](Assignments/NLP_tweets)** - This lecture will be given by **Eszter Bokányi**, whose field of interest is how social phenomena can be captured by using various digital fingerprints of individuals. <br>
+11, 29.04.2020. **[3D Visualization](Assignments/3D_Visualization)** <br>
 12, 05.05.2020. **Consultation** <br>
 13, 12.05.2020. **Consultation**
 
@@ -71,13 +71,13 @@ The result should look like a **report**, which will be generated from the works
 
 ### Grading
 
-Each assignment will be corrected after submission and a maximum of 20 points will be given for it. 10 for all the completed tasks, 10 for the quality of the submitted report (look and clarity). 
+Each assignment will be corrected after submission and a maximum of 20 points will be given for it. 10 for all the completed tasks, 10 for the quality of the submitted report (look, clarity and comments). 
 The final grades will be given according to the following pointsystem:<br>
 0 - 60: failed<br>
 61 - 79: 2<br>
 80 - 101: 3<br>
-102 - 129: 4<br>
-130 - : 5<br>
+102 - 124: 4<br>
+125 - : 5<br>
 
 ### Example Datasets
 
