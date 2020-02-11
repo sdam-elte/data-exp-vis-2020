@@ -3,28 +3,28 @@
 
 This course is part of the [Scientific Data Analytics and Modelling Programme](http://datascience.elte.hu/en/Default.aspx#top).
 The aim of the course is that students gain practical skills to **access large databases/datasets**, to handle **data stored in different formats**, **to explore/distill these data** and **present/visualize** the gathered information. During the course students will come across databases of multiple disciples. Completing of the several projects allows students to gain experience on this field that will be a firm foundation for later courses on theoretical datamining and advanced computing laboratories.
-In this course we intend to introduce state of the art tools and methods for data exploration and visualization. This field evolves rapidly and a year later one might not use the same tool for the same task, but certain notions, languages and packages become standards for a longer time.
+In this course we intend to introduce **state of the art tools and methods** for data exploration and visualization. This field evolves rapidly and a year later one might not use the same tool for the same task, but certain notions, languages and packages become the standard for a longer time.
 
-There is a useful tutorial into python http://bokae.web.elte.hu/numerical_methods.html) and python on which this course relies.
+There is a useful tutorial into python http://bokae.web.elte.hu/numerical_methods.html), which gives a wide background knowledge, that comes handy.
 
 During the course every sample code will be shown in **jupyter notebooks**, which can be accessed on the [Kooplex Edu platform](https://kooplex-edu.elte.hu).
 
-Each occasion starts with an hour of introduction into the current topic with examples. After that everyone can work on the worksheets and  lecturers will be available to help with the assignments. 
+Each occasion starts with an hour of introduction into the current topic with examples. After that everyone can work on the worksheets and the lecturers will be available to help with the any related problems and questions. 
 
   
 #### Course info
 Neptun code: 	**dsexplorf17vm** <br>
 Instructor: 	**Dávid Visontai**<br>
-Semester: 	2 <br>
+Semester: 	spring <br>
 Type: 	Lecture + Practice <br>
 Credit points: 	4 <br>
 Prerequisites: 	programming in either **python**, **R** or **matlab** <br>
 
-The course is held in the **North Building** in computer lab **5.56** on **wednesdays**  **14:00 - 17:00**.
+The course is held in the **North Building** in computer lab **5.56** on **Wednesdays**  **14:00 - 17:00**.
 
 
 ### The schedule of the course 
-1,  12.02.2020. **[Visualization](Interactive_Visualization)** <br>
+1,  12.02.2020. **[Introduction to Kooplex Edu](https://kooplex-edu.elte.hu/hub)**, **[Jupyter Notebooks](https://jupyter.org/)** and **[Visualization](Interactive_Visualization)** <br>
 2,  19.02.2020. **[SQL queries on an NBA database](Basketball_League-SQL) I** <br>
 3,  26.02.2020. **[SQL queries on an NBA database](Basketball_League-SQL) II** <br>
 4,  04.03.2020. **[USGS water discharge statistics](USGS-waterdata-curl-pandas)** <br>
@@ -44,8 +44,7 @@ The course is held in the **North Building** in computer lab **5.56** on **wedne
  * Standards of file- and dataformats ([csv](https://www.computerhope.com/issues/ch001356.htm), [hdf5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format), [netcdf](https://en.wikipedia.org/wiki/NetCDF))
  * Raw and processed data, metadata, cleansing of data
  * Access data locally and through the web ([API](https://restfulapi.net/)s, [HTTP protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol))
- * Access of scientific databases ([SQL](https://www.w3schools.com/sql/))
- * Usage of relational databases
+ * Access of scientific databases, Usage of relational databases ([SQL](https://www.w3schools.com/sql/))
  * Transforming data, sorting, combining [pandas](https://pandas.pydata.org/)
  * Basics of timeseries analysis
  * Handling datasets with geolocation ([shapely](https://shapely.readthedocs.io/en/stable/manual.html), [folium](https://python-visualization.github.io/folium/), [geoviews](https://geoviews.org/))
