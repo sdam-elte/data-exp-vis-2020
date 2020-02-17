@@ -20,7 +20,7 @@ Type: 	Lecture + Practice <br>
 Credit points: 	4 <br>
 Prerequisites: 	programming in either **python**, **R** or **matlab** <br>
 
-The course is held in the **North Building** in computer lab **5.56** on **Wednesdays**  **14:15 - 16:45**.
+The course is held in the **North Building** in computer lab **5.56** on **Wednesdays**  **14:00 - 16:30**.
 
 
 ### The schedule of the course 
