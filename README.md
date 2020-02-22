@@ -25,7 +25,7 @@ The course is held in the **North Building** in computer lab **5.56** on **Wedne
 
 ### The schedule of the course 
 1,  12.02.2020. **[Introduction to Kooplex Edu](https://kooplex-edu.elte.hu/hub)**, **[Jupyter Notebooks](https://jupyter.org/)** and  **[USGS water discharge statistics](Assignments/USGS-water)**<br>
-2,  19.02.2020. **[Maps, shapes, coordinates](Assignments/Maps_shapes) and [Following John Snow](Assignments/John_Snow_pumps_and_deaths)** <br>
+2,  19.02.2020. **[Maps, shapes, coordinates](Maps_shapes) and [Following John Snow](Assignments/John_Snow_pumps_and_deaths)** <br>
 3,  26.02.2020. **[SQL queries on an NBA database](Assignments/Basketball_League)** <br>
 4,  04.03.2020. **[Hierarchical dataformats and standards](Assignments/Hierarchical_dataformats)** <br>
 5,  11.03.2020. **[REST services](REST-services) and [nCoV-2019](Assignments/nCoV-2019)** <br>
