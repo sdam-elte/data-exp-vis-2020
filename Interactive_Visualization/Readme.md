@@ -12,8 +12,8 @@ The task will be to create a static, interactive and a hosted report/presentatio
 
 #### Book
 
-http://www.haralick.org/DV/Handbook_of_Data_Visualization.pdf
-A lengthy handbook from the prejupyter era
+http://www.haralick.org/DV/Handbook_of_Data_Visualization.pdf - A lengthy handbook from the prejupyter era
+
 `
 Preparing graphics is a high level task 
 `
@@ -21,14 +21,16 @@ Preparing graphics is a high level task
 #### Historical examples
 https://www.slideshare.net/thompsonkaren/data-visualization-theory-59604862
 
-#### Timeline of data visualization
+#### Timeline of data visualization - up to 2010
 http://datavis.ca/milestones/index.php
-Up to 2010
+
 
 #### Presentation Graphics
-**It is static**. These displays should be of high quality and include complete definitions and explanations of the variablesshown and of the form of the graphic. 
-**Some rules for preparing**: 
-http://ling.uni-konstanz.de/pages/home/butt/main/material/lingvis/VisTheory_v1_online.pdf
+**It used to be static**. These displays should be of high quality and include complete definitions and explanations of the variables shown and of the form of the graphic. 
+
+**Some rules for preparing**: http://ling.uni-konstanz.de/pages/home/butt/main/material/lingvis/VisTheory_v1_online.pdf
 
 #### Exploratory Graphics
-Fast, dynamic, not necessarily precise, where we are looking for the results
+Fast, dynamic, not necessarily precise, but adds new perspectives for the viewer, that helps to grasp the meaning of the results.
+
+Checkout the gapminder folder, which contains a *Bokeh* application!
