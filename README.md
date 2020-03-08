@@ -28,7 +28,7 @@ The course is held in the **North Building** in computer lab **5.56** on **Wedne
 2,  19.02.2020. **[Maps, shapes, coordinates](Maps_shapes) and [Following John Snow](Assignments/John_Snow_pumps_and_deaths)** <br>
 3,  26.02.2020. **[SQL queries on an NBA database](Assignments/Basketball_League)** <br>
 4,  04.03.2020. **[Interactive Visualization](Interactive_Visualization)** <br>
-5,  11.03.2020. **[Hierarchical dataformats and standards](Dataformats)** <br>
+5,  11.03.2020. **[Hierarchical dataformats and standards, storing data](Dataformats)** <br>
 6,  18.03.2020. **[REST services](REST-services) and [nCoV-2019](Assignments/nCoV-2019)** <br>
 7,  25.03.2020. **** <br>
 8,  01.04.2020. **[Network exploration](Assignments/Networks)** - This lecture will be given by [**Dániel Ábel**](http://maven7.com/hu/daniel-abel/), who is a developer at Maven7. <br>
