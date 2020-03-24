@@ -29,13 +29,13 @@ The course is held in the **North Building** in computer lab **5.56** on **Wedne
 3,  26.02.2020. **[SQL queries on an NBA database](Assignments/Basketball_League)** <br>
 4,  04.03.2020. **[Interactive Visualization](Interactive_Visualization)** <br>
 5,  11.03.2020. **[Hierarchical dataformats and standards, storing data](Dataformats)** <br>
-6,  18.03.2020. **[REST services](REST-services) and [nCoV-2019](Assignments/nCoV-2019)** <br>
-7,  25.03.2020. **** <br>
+6,  18.03.2020. **** <br>
+7,  25.03.2020. **[REST services](REST-services)** <br>
 8,  01.04.2020. **[Network exploration](Assignments/Networks)** - This lecture will be given by [**Dániel Ábel**](http://maven7.com/hu/daniel-abel/), who is a developer at Maven7. <br>
 9, 15.04.2020. **[Data extraction from images](Assignments/Image_exploration)** <br>
 10, 22.04.2020. **[Natural Language Processing on tweets](Assignments/NLP_tweets)** - This lecture will be given by **Eszter Bokányi**, whose field of interest is how social phenomena can be captured by using various digital fingerprints of individuals. <br>
 11, 29.04.2020. **[3D Visualization](Assignments/3D_Visualization)** <br>
-12, 05.05.2020. **Consultation** <br>
+12, 05.05.2020. **[nCoV-2019](Assignments/nCoV-2019)** <br>
 13, 12.05.2020. **Consultation**
 
 ### Covered topics
