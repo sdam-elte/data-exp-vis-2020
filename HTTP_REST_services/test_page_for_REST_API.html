@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.get("https://kooplex-fiek.elte.hu/notebook/wfct0p-rere-wfct0p/report/help", function(data, status){
+      $("#test1").html(data);
+    });
+  });
+});
+</script>
+</head>
+<body>
+
+<button>Send an HTTP GET request to the API and get the result back</button>
+<p id=test1></p>
+</body>
+</html>
+
