@@ -1,38 +1,59 @@
+## HTTP protocol
+
+Here are some tutorial videos:
+ * https://www.youtube.com/watch?v=k6fy7mvNSnY
+ * https://www.youtube.com/watch?v=iYM2zFP3Zn0
+ * https://www.youtube.com/watch?v=JFZMyhRTVt0
+
+or take a look at these sites for further informations:
+ * https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+ HTTP functions as a request–response protocol in the client–server computing model
+ * https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html
+
+
 ## REST services
 
-
-* HTTP protocol
-* What is an API
-* Tutorial with Airvisual's API
-* Task 1a: Use the Twitter API to retrieve tweets
-
-or
-
-* Task 1b: Use the Github API to manage your account
+The basics of it are explained in these videos:
+ * https://www.youtube.com/watch?v=LooL6_chvN4
+ * https://www.youtube.com/watch?v=7YcW25PHnAA
+ * https://www.youtube.com/watch?v=Q-BpqyOT3a8
 
 
-* Task 2: Build an API with the jupyter-kernelgateway. *The worksheet in the handout had a wrong tasklist. Please, complete this task according the following instructions!*
-  * Create an API with 4 endpoints
-    * */help* returns with the help/usage of the other 3 endpoints
-    * 1 endpoint, where one needs to use arguments (key/value pairs)
-    * 1 endpoint, which returns some data in json format. Either the json should contain a description of what the data is or it is defined in the */help*
-    * 1 endpoint, which returns an image or file (plot, graph etc). It's type should be defined in */help*
-  * You can use any dataset for this task. Here is a list of some real life data:
-    * https://catalog.data.gov/dataset/demographic-statistics-by-zip-code-acfc9
-    * https://catalog.data.gov/dataset/crimes-2001-to-present-398a4
-    * https://catalog.data.gov/dataset/lottery-mega-millions-winning-numbers-beginning-2002
-
-**From Task 1** choose only a, or b,!
-
-**For Task 2** Everyone should delete the container and start a new one, because the python packages were updated. Those who work on any other device they need to have the following package installed:
-* jupyter_kernel_gateway==2.1.0
-
-HTTP functions as a request–response protocol in the client–server computing model
 https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html
+
+A **REST service** should always have a detailed documentation, otherwise there is no way for the client to learn it's functionalities. Here are two neat examples:
+* Airvisual https://www.iqair.com/air-pollution-data-api
+and
+ * Chembl https://www.ebi.ac.uk/chembl/api/data/docs
+
+**Airvisual** hosts physical and chemical parameters of the atmosphere collected with vast amount of sensors from all over the world. The API is partially public, clients need to register and obtain a key, with which they authenticate themselves
+
+**Chembl** is a service of the EBI (www.ebi.ac.uk), which serves data from a database, where all sorts of information is stored about chemical/molecular interactions.
+
+### How to build a REST API in python - Tutorials
+Please read these tutorials for a deeper understanding of the whole process and for motivation as well:
+ * flask
+https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
+ * jupyter notebook
+https://www.pybloggers.com/2016/01/jupyter-notebooks-as-restful-microservices/
+
+### Examples
+
+In the folder you'll find `REST_API_example_server.ipynb` and `REST_API_example_client.ipynb` that showcases how a REST service can be setup using jupyter notebook with client side code for testing.
+
+When running the server in the terminal with
+``` bash
+preview-nb-api.sh REST_API_example_server.ipynb
+```
+the first line in the output will tell you the url of the service (it is the same as with the bokeh server). The url ends with `/report`. If you run your service then the help endpoint should be either at `/report/help` or at `/report/api/help`
+
+### Assignment
+
+You will find the description of the task in the `API-worksheet.ipynb` notebook.
 
 ### Transferring images - some help
 
-You can only send text via the api. This data needs to be downloaded and converted back.
+You can only send text via the api. So if you want to send an image then i the data needs to be converted to text, then download it and convert back to image.
 
 curl https://kooplex-edu.elte.hu/notebook/wfct0p-dataexplvisu/report/img > img.png
 
@@ -49,3 +70,30 @@ with open("img.png",'r') as i:
     with open("t.png",'wb') as t:
         t.write(img_encoded)
 ```
+
+### With jQuery and javascript 
+it is possible to send a request to an API, transfer the data and update your webpage. Here is code snippet, that will do it.
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.get("https://kooplex-fiek.elte.hu/notebook/wfct0p-rere-wfct0p/report/help", function(data, status){
+      $("#test1").html(data);
+    });
+  });
+});
+</script>
+</head>
+<body>
+
+<button>Send an HTTP GET request to the API and get the result back</button>
+<p id=test1></p>
+</body>
+</html>
+```
+If you save this code (maybe replacing the url, with your API server's url) into an HTML file, then loading it to the browser should reveal the button, which then will reveal the returned message. The `button` can be replaced with an `onload` function, which runs immediately when opening the page.
