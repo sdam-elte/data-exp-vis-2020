@@ -34,8 +34,8 @@ The course is held in the **North Building** in computer lab **5.56** on **Wedne
 8,  01.04.2020. **[Network exploration](Assignments/Networks)** - This lecture will be given by [**Dániel Ábel**](http://maven7.com/hu/daniel-abel/), who is a developer at Maven7. <br>
 9, 15.04.2020. **[Data extraction from images](Assignments/Image_exploration)** <br>
 10, 22.04.2020. **[Natural Language Processing on tweets](Assignments/NLP_tweets)** - This lecture will be given by **Eszter Bokányi**, whose field of interest is how social phenomena can be captured by using various digital fingerprints of individuals. <br>
-11, 29.04.2020. **[3D Visualization](Assignments/3D_Visualization)** <br>
-12, 05.05.2020. **[nCoV-2019](Assignments/nCoV-2019)** <br>
+11, 29.04.2020. **[3D Visualization](3D_Visualization)** <br>
+12, 05.05.2020. **[nCoV-2019](nCoV-2019)** <br>
 13, 12.05.2020. **Consultation**
 
 ### Covered topics
@@ -55,7 +55,20 @@ The course is held in the **North Building** in computer lab **5.56** on **Wedne
  * Interactive dataexplorative tools ([ipywidgets](https://ipywidgets.readthedocs.io/), [bokeh](https://bokeh.org/), [holoviews](http://holoviews.org/))
  * Developing open source softwares, reproducible research ([OSF](https://osf.io/))
 
+### Assignments and the expected output
 
+1. **[USGS water discharge statistics](Assignments/USGS-water)** - HTML
+2. **[Following John Snow](Assignments/John_Snow_pumps_and_deaths)** - HTML
+3. **[SQL queries on an NBA database](Assignments/Basketball_League)**- HTML
+4. **[Interactive Visualization](Assignments/Interactive_Visualization)** - HTML or Hosted App
+5. **[REST API](Assignments/REST_API)** - REST service/API
+6. **[Network exploration](Assignments/Networks)** - HTML
+7. **[Data extraction from images](Assignments/Image_exploration)** - HTML
+8. **[Natural Language Processing on tweets](Assignments/NLP_tweets)** - HTML
+
+**HTML:** e.g. converted from a jupyter notebook<br>
+**Hosted App:** an application that is hosted by a server (plotly, bokeh etc.<br>
+**REST service/API:** instructions are on the worksheet<br>
 
 ### Where to work on the assignments?
 https://kooplex-edu.elte.hu/hub is where the notebooks will be handed out. It is available for all students with a valid **Neptun** or **caesar** account. Once you run your notebook server you will find a folder with the course material. The notebooks will be available in this Github repository as well.
@@ -93,4 +106,8 @@ In the */home/course/Datasets* directory you will find datasets, that you can wo
 
 * Wes McKinney: Python for Data Analysis, (O’Reilly 2013)
 * Joel Grus: Data Science from Scratch (O’Reilly 2015)
+
+### Simulation and data visualizations
+* https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
+
 
