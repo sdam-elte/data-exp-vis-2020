@@ -23,9 +23,9 @@ https://buildmedia.readthedocs.org/media/pdf/reproducible-analysis-workshop/late
 * Version control, sharing of code
 	* https://github.com/
 	* https://www.jovian.ml/
-	* Wholetale.org
-	* Codeocean.com
-	* Kaggle.com
+	* https://Wholetale.org
+	* https://Codeocean.com
+	* https://Kaggle.com
 	* https://expfactory.github.io/
 
 
