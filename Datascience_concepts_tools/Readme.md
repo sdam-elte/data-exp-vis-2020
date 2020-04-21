@@ -3,7 +3,7 @@ Scientific programming and data science is still in an evolutionary phase and wi
 Besides the syntax and architecture of these tools (such as a programming language) there are more or less settled guiding principles how these should be used in order to make it more useful on a longer term for both the creator and the community.
 
 What are these principles? What is the motivation to comply with these principles? And what applications, platforms, tools are there?
-You will find many 
+During the following data science courses you will have to use *version control* systems, or prepare your code so that is *reproducible* by others and so on. Therefore it is recommended to at least scan through the links provided below.
 
 ## Comprehensive readings
 * A journal 
