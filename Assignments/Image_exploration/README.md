@@ -1,12 +1,17 @@
 ## Data extraction from images
 
-[Opencv](https://opencv.org/)
+* A very useful package for this topic is [Opencv](https://opencv.org/)
 
-Tutorials: https://docs.opencv.org/3.4.6/d9/df8/tutorial_root.html
+* Here you can find tutorials related to opencv: https://docs.opencv.org/master/d9/df8/tutorial_root.html
 
-There are 4 exercises, but you don't have to complete all of them. 
-* Choose either Exercise 1 or 4
-* Choose either Exercise 2 or 3
+### Handout
+in the *handout* folder there is an introductory notebook, that shows various aspects fo image data and imagemanipulations
 
-When doing exercise 1, 2 or 4 you will need to use transformations that were discussed in the handout.ipynb notebook.
-For Exercise 3 you will need to use geometrical and other transformations as well.
+### Assignment
+There are 3 exercises on the *worksheet*:
+* Choose either Exercise 1a or 1b
+* The 3rd exercise might be a bit more technical. If you encounter any problems, then please submit an issue here on github.
+
+When doing exercise 1. you will need to use transformations that are discussed in the handout.ipynb notebook.
+For exercise 2. you will need to use additional geometrical and other transformations as well.
+
