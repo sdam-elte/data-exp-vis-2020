@@ -30,12 +30,17 @@ and
 
 **Chembl** is a service of the EBI (www.ebi.ac.uk), which serves data from a database, where all sorts of information is stored about chemical/molecular interactions.
 
+## Documentaion of jupyter-kernelgateways
+Here you will find the manual: https://jupyter-kernel-gateway.readthedocs.io/en/latest/http-mode.html
+The example notebook is based on this.
+
 ### How to build a REST API in python - Tutorials
 Please read these tutorials for a deeper understanding of the whole process and for motivation as well:
- * flask
+* flask
 https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
- * jupyter notebook
-https://www.pybloggers.com/2016/01/jupyter-notebooks-as-restful-microservices/
+* jupyter notebook
+  * https://www.pybloggers.com/2016/01/jupyter-notebooks-as-restful-microservices/
+  * https://towardsdatascience.com/expose-endpoints-using-jupyter-kernel-gateway-e55951b0f5ad
 
 ### Examples
 
@@ -47,7 +52,7 @@ preview-nb-api.sh REST_API_example_server.ipynb
 ```
 the first line in the output will tell you the url of the service (it is the same as with the bokeh server). The url ends with `/report`. If you run your service then the help endpoint should be either at `/report/help` or at `/report/api/help`
 
-### Assignment
+## Assignment
 
 You will find the description of the task in the `API-worksheet.ipynb` notebook.
 
