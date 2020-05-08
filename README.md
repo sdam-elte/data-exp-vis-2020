@@ -1,6 +1,8 @@
 # Course material for Data Exploration and Visualisation 
 ### 2020 spring semester
 
+## Important: the deadline for all submissions is 16th June 1pm
+
 This course is part of the [Scientific Data Analytics and Modelling Programme](http://datascience.elte.hu/en/Default.aspx#top).
 The aim of the course is that students gain practical skills to **access large databases/datasets**, to handle **data stored in different formats**, **to explore/distill these data** and **present/visualize** the gathered information. During the course students will come across databases of multiple disciples. Completing of the several projects allows students to gain experience on this field that will be a firm foundation for later courses on theoretical datamining and advanced computing laboratories.
 In this course we intend to introduce **state of the art tools and methods** for data exploration and visualization. This field evolves rapidly and a year later one might not use the same tool for the same task, but certain notions, languages and packages become the standard for a longer time.
@@ -69,6 +71,8 @@ The course is held in the **North Building** in computer lab **5.56** on **Wedne
 **HTML:** e.g. converted from a jupyter notebook<br>
 **Hosted App:** an application that is hosted by a server (plotly, bokeh etc.<br>
 **REST service/API:** instructions are on the worksheet<br>
+
+
 
 ### Where to work on the assignments?
 https://kooplex-edu.elte.hu/hub is where the notebooks will be handed out. It is available for all students with a valid **Neptun** or **caesar** account. Once you run your notebook server you will find a folder with the course material. The notebooks will be available in this Github repository as well.
